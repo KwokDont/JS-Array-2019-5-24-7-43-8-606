@@ -4,7 +4,11 @@
 var a = '[a, b, c, d]';
 var b = [1, 2, 3, 4];
 //TODO
-
+function testIfArray(temp){
+	console.log(temp instanceof Array);
+}
+testIfArray(a);
+testIfArray(b);
 
 // 编写程序，将下面数组中的每一项都乘以2。
 var a = [1, 2, 3, 4, 5];
